@@ -1,0 +1,53 @@
+.logo{
+    width: 20px;
+    position: absolute;     
+}
+
+@keyframes logo-rotate  {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#logo-l{
+    left: 8px;
+    top: 8px;
+    animation: logo-rotate linear 2s;
+}
+
+#logo-m{
+    left: 28px;
+    top: 20px;
+    animation: logo-rotate linear 1.5s;
+}
+
+#logo-d{
+    left: 8px;
+    top: 30px;
+    animation: logo-rotate linear 1s;
+}
+
+p{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 3vw;
+    color: black;
+}
+
+@media screen and (max-device-width: 768px) and (min-width: 426px) {
+    p{
+        font-size: 2vw;
+    } 
+}
+
+@media screen and (min-device-width: 769px){
+    p{
+        font-size: 1vw;
+    } 
+}
