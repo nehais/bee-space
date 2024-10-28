@@ -1,0 +1,53 @@
+.nav-menu{
+    display: flex;
+}
+
+.menu-horz-items{
+    display: none;
+}
+
+#home-menu-button{
+    background-color: transparent;
+    border: none;
+}
+
+.home-icon{
+    width: 20px;
+}
+
+#nav-menu-button{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+#menu-ddl-items{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    list-style: none;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+@media screen and (min-device-width: 769px){
+    .menu-horz-items{
+        display: block;
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        
+        li{
+            margin-right: 25px;
+        }
+    }
+
+    #nav-menu-button{
+        display: none;
+    }
+}

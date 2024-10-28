@@ -2,7 +2,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
-    background-image: url('src\assets\hive-back.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:#2f6541;
 }

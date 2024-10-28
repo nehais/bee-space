@@ -3,7 +3,7 @@
     position: absolute;     
 }
 
-@keyframes logo-rotate  {
+@keyframes logo-scale  {
     0% {
         transform: scale(0);
     }
@@ -15,39 +15,47 @@
 #logo-l{
     left: 8px;
     top: 8px;
-    animation: logo-rotate linear 2s;
+    animation: logo-scale linear 2s;
 }
 
 #logo-m{
     left: 28px;
     top: 20px;
-    animation: logo-rotate linear 1.5s;
+    animation: logo-scale linear 1.5s;
 }
 
 #logo-d{
     left: 8px;
     top: 30px;
-    animation: logo-rotate linear 1s;
+    animation: logo-scale linear 1s;
 }
 
 p{
     position: absolute;
     left: 50px;
-    top: 15px;
+    top: 10px;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-size: 3vw;
-    color: black;
+    color: white;
+    animation: logo-trans linear 2s;
+}
+
+@keyframes logo-trans  {
+    from, to { color: transparent }
+    100% {color: white; }
 }
 
 @media screen and (max-device-width: 768px) and (min-width: 426px) {
     p{
+        top: 5px;
         font-size: 2vw;
     } 
 }
 
 @media screen and (min-device-width: 769px){
     p{
+        top: 5px;        
         font-size: 1vw;
     } 
 }
