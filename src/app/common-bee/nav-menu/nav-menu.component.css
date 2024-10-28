@@ -31,7 +31,7 @@
 .menu-item{
     text-decoration: none;
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 @media screen and (min-device-width: 769px){
@@ -50,4 +50,8 @@
     #nav-menu-button{
         display: none;
     }
+
+    .menu-item{
+        font-size: 1.5em;
+    }    
 }
