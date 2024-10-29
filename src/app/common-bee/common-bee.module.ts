@@ -4,6 +4,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoComponent } from './logo/logo.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -12,13 +13,15 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     NavbarComponent,
     FooterComponent,
     LogoComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    CardComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    CardComponent
   ]
 })
 export class CommonBeeModule { }

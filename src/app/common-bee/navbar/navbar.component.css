@@ -1,6 +1,8 @@
 .navbar{
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     background-color: #486852;
+    min-height: 40px;
 }
 
